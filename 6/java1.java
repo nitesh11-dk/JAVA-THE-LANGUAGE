@@ -73,7 +73,7 @@ char  chr = 'a' ;
 boolean bool = true ;
 int first = 12 ;
 long lng = 1412834676 ;// i think so this is the limit;
-float flt = 13.34f; // be deafult ye double treat hoga so appko 13.34f likhna padega
+float flt = 13.34f; // be deafult ye double treat hoga so appko 13.34 f likhna padega
 double fltr = 13.34 ;
 
 // System.out.print(lng) ;

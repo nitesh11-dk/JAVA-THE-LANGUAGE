@@ -78,9 +78,10 @@ long c = d ;
 // ! Type Casting  // narrowing  conversion // explict converion
 
 
-//   the type of conveesion that java don't allow but , we forcefully want to convert that and the is called as type casting 
+//   the type of conversion that java don't allow but , we forcefully want to convert that and this is called as type casting 
 
 // float marks =  99.99f; // yaha par f likhan jaruri hai qkii by deafult ye double hota hai keuu kii float hota hai 32bit (4byte) aur double hota hai  64-bit(8byte)
+
 // int withourDeciMarks =  (int) marks ;
 // System.out.print(withourDeciMarks) ;
 
@@ -92,13 +93,74 @@ long c = d ;
 
 char chr = 'B';
 int number = chr ;
-System.out.println(number) ;
+// System.out.println(number) ;
 
 
 
 
 
 
+//  !Type Promotion in Expressions
+
+// 1 . Java automatically promotes each byte, short, or char operand to int
+// when evaluating an expression.
+// 2. If one operand is long, float or double the whole expression is
+// promoted to long, float, or double respectively.
+
+
+
+   
+   char a= 'a';
+   char b = 'b';
+    //   char s = b-a ; // same error here also 
+//    char s = (int) b ; // giving error as  possible lossy conversion from int to char
+   char s = (char) b ; // yaha hum type casting kar rahe hai 
+//    int s = (int) b ;  // valid 
+//    System.out.println( (int) (a) ) ;
+//    System.out.println( (int) b ) ;
+//    System.out.print(s ) ;
+
+
+char l = 'c';
+// byte byt = (byte) a+b+l ; // yaha par  yaise nahi kar sakte haibind up karna padega sabko
+
+// byte byt = (byte) (a+b+l) ; // menas yah par jo vhi expression hai vo int me convert ho jata hai , yisiliye to error milra hai kii int to byte me convert nahi kar sakta hai
+
+//    System.out.print(byt ) ;
+
+int num1 = 12 ;
+float num2= 12.99f ;
+long num3 = 15;
+double num4 = 19.87;
+
+double res= num1 + num2 + num3 + num4 ;
+
+
+// yaha par agar hume decial like float aur double vhi use karege to sara chiz double me convert hoga , but agar jab withour decimal point consider karege tab shrif  long me convert hoga 
+
+// System.out.print(res );
+
+
+
+// ! wrong
+byte ber = 5;
+// ber = ber * 2; // yaha par loss y convert ho jaata hai qki by deafult ye b*2 ye expression hai so ye int  me convert hoga , aur int ko hum byte me nahi dal sakte hai 
+
+// ! right
+ber = (byte) (ber * 2)
+
+System.out.println(ber);
+
+
+//? How is our Code Running?
+
+// JDK
+// JRE -- java runtime environment
+// • Development
+// • Libranes
+// Tools
+
+ 
 
 
 
