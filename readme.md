@@ -14,3 +14,9 @@
 - Scanner object , on some methods for differnt different data type 
 - Type conversion / Widening / Implict conversion 
 - Type Casting  / narrowing  conversion / explict converion
+
+
+## Day-3
+ - Type Promotion in Expressions
+ - How is our Code Running?
+ - Assignment-1 - Completed 
