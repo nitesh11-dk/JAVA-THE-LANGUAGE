@@ -20,3 +20,15 @@
  - Type Promotion in Expressions
  - How is our Code Running?
  - Assignment-1 - Completed 
+
+ ## Day-4
+#  Types of Operators 
+
+-   Arithmetic Operators (Binary/Unary) 
+- binary matlb  do operands hote hai , like a and b  
+-  unary  it is like only single operands is used 
+-Pre / Post Increment
+-pre / post Decrement
+-   Relational Operators // < , > <= , >= ,==
+-   Logical Operators // && || ! 
+-   Assignment Operators // +=  ,-= ,*= , /= , %=
