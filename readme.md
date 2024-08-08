@@ -32,3 +32,13 @@
 -   Relational Operators // < , > <= , >= ,==
 -   Logical Operators // && || ! 
 -   Assignment Operators // +=  ,-= ,*= , /= , %=
+- Assignment 2 - Completed
+
+ ## Day -5
+ - If-else , else if 
+ - switch 
+ - tenary operator    
+ - Assignment 3 - completed 
+
+
+
