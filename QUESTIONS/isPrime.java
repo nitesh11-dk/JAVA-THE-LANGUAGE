@@ -32,3 +32,34 @@ public class isPrime {
         return true;
     }
 }
+
+// ! without using the function 
+
+// int num = scnr.nextInt();
+
+// boolean isPrime = true ;
+
+
+// if(num <= 1 ){
+//  isPrime = false;
+// }
+
+// for ( int i = 2 ; i <=  Math.sqrt(num) ; i++){
+
+// if(num % i == 0){
+//     isPrime = false ;
+//     break;
+// }
+
+
+// }
+
+
+// if(isPrime){
+//     System.out.println("the number is prime number");
+// } else {
+//     System.out.println("the number is not  prime number");
+
+// }
+
+

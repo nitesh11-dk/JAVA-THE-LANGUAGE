@@ -40,5 +40,14 @@
  - tenary operator    
  - Assignment 3 - completed 
 
+## Day - 6
+- While Loop 
+- sum of n numbers
+- Print reverse of a number ---  and also save it into a variable
+- do while , break , continue
+- prime or not a given number 
+- Assignment -4- completed  
+- ( question no 2 ) 
+
 
 
